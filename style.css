@@ -5,10 +5,10 @@
 
 /* hero background image */
 .bgimage {
-    height:150vh;
+    height:150%;
     background: url('grad.png');
-    background-size:cover;
-    position:relative;
+    background-size: cover;
+    position:sticky;
 }
 /*logo*/
 .navbar-brand {
@@ -33,7 +33,7 @@
 }
 .hero_desc {
     font-size: 2.5rem;
-    color: rgb(235, 149, 196);
+    color: rgb(5, 4, 5);
     
 }
 .hero-text {
@@ -61,10 +61,10 @@ svg {
 }
 
 .text-copy {
-    fill: rgb(15, 13, 14);
+    fill: rgb(206, 73, 182);
     stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 3px;
+    stroke-dasharray: 50% 50%;
+    stroke-width: 1px;
     stroke-dashoffset: 0%;
     animation: stroke-offset 5.5s infinite linear;
 }
@@ -95,7 +95,7 @@ svg {
 }
 
 @keyframes stroke-offset{
-	100% {stroke-dashoffset: -35%;}
+	100% {stroke-dashoffset: -20%;}
 }
 
 /* spacing on all sections */
