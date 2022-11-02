@@ -61,7 +61,7 @@ svg {
 }
 
 .text-copy {
-    fill: rgb(235, 149, 196);
+    fill: rgb(15, 13, 14);
     stroke: white;
     stroke-dasharray: 6% 29%;
     stroke-width: 3px;
@@ -139,7 +139,7 @@ svg {
     font-size: 50px;
     cursor: pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
     color: #008000;
 }
 .fab {
